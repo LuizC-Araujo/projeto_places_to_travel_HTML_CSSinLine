@@ -13,48 +13,60 @@
         * {
             box-sizing: border-box;
         }
+
         .center {
             margin: auto;
         }
+
         .center_text {
             text-align: center;
         }
+
         .white {
-            color:azure;
+            color: azure;
         }
+
         .black {
-            color:#000;
+            color: #000;
         }
+
         .places {
             width: 20%;
-            padding:20px 0;
+            padding: 20px 0;
             text-decoration: none;
             text-align: center;
             list-style-type: none;
             display: flex;
-            align-items:center;
-            justify-content:center;
+            align-items: center;
+            justify-content: center;
         }
+
         .places:hover {
-            background-color:cornflowerblue;
+            background-color: cornflowerblue;
             border: solid 1px #000;
         }
+
         .no-decoration {
             text-decoration: none;
         }
+
         #navigation {
             background-color: darkcyan;
         }
+
         .travelsOdd {
-            background-color:seagreen;
+            background-color: seagreen;
             padding-bottom: 30px;
         }
+
         .back-from-odd {
             background-color: skyblue;
         }
+
         .back-from-pair {
             background-color: seagreen;
         }
+
         .back-nav {
             margin: 20px;
             position: absolute;
@@ -71,41 +83,54 @@
             font-size: 18px;
 
         }
+
         .travelsPair {
-            background-color:skyblue;
+            background-color: skyblue;
             padding-bottom: 30px;
         }
+
         .p_travel {
             margin: 0 60px;
             text-align: justify;
             line-height: 27px;
             text-indent: 20px;
         }
+
         .title {
             padding-top: 30px;
         }
+
         img {
             width: 100%;
             border-radius: 20px;
             margin: auto;
         }
+
         .fig {
-            width: 50%; display: block;
+            width: 50%;
+            display: block;
         }
+
         .images {
             display: flex;
         }
     </style>
 </head>
+
 <body style="background-color:rgb(15, 15, 66);">
     <main class="center" style="width: 60%;">
         <section id="inicio">
             <h1 class="center_text white">15 Destinos para viagens</h1>
-            <p class="center_text white"><em>"Viajar é trocar a roupa da alma".</em><strong>&nbsp Mario Quintana</strong></p>
-            <p class="center_text white"><em>"Morre lentamente quem não viaja, quem não lê, quem não ouve música, quem não encontra graça em si mesmo".</em><strong>&nbsp Martha Medeiros</strong></p>
-            <p class="center_text white"><em>"O mundo é um livro e quem não viaja lê apenas a primeira página".</em><strong>&nbsp Santo Agostinho</strong></p>
-            <p class="center_text white"><em>"Estou apaixonada por cidades onde nunca estive e pessoas que nunca conheci".</em><strong>&nbsp Melody Truong</strong></p>
-            <p class="center_text white"><em>"Digo: o real não está na saída nem na chegada: ele se dispõe para a gente é no meio da travessia".</em><strong>&nbsp João Guimarães Rosa</strong></p>
+            <p class="center_text white"><em>"Viajar é trocar a roupa da alma".</em><strong>&nbsp Mario
+                    Quintana</strong></p>
+            <p class="center_text white"><em>"Morre lentamente quem não viaja, quem não lê, quem não ouve música, quem
+                    não encontra graça em si mesmo".</em><strong>&nbsp Martha Medeiros</strong></p>
+            <p class="center_text white"><em>"O mundo é um livro e quem não viaja lê apenas a primeira
+                    página".</em><strong>&nbsp Santo Agostinho</strong></p>
+            <p class="center_text white"><em>"Estou apaixonada por cidades onde nunca estive e pessoas que nunca
+                    conheci".</em><strong>&nbsp Melody Truong</strong></p>
+            <p class="center_text white"><em>"Digo: o real não está na saída nem na chegada: ele se dispõe para a gente
+                    é no meio da travessia".</em><strong>&nbsp João Guimarães Rosa</strong></p>
         </section>
         <section id="img_travel">
             <figure>
@@ -116,71 +141,116 @@
         <section id="navigation">
             <nav>
                 <ul style="display: flex; flex-wrap: wrap; justify-content: space-around; padding: 0">
-                    <a href="#ponte_ouro" class="places no-decoration white"><li class="white">Ponte Dourada</li></a>
-                    <a href="#perito_moreno" class="places no-decoration white"><li class="white">Perito Moreno</li></a>
-                    <a href="#torre_eiffel" class="places no-decoration white"><li class="white">Torre Eiffel</li></a>
-                    <a href="#reserva_borboletas" class="places no-decoration white"><li class="white">Reserva Borboletas</li></a>
-                    <a href="#aurora_boreal" class="places no-decoration white"><li class="white">Aurora Boreal</li></a>
-                    <a href="#machu_picchu" class="places no-decoration white"><li class="white">Machu Picchu</li></a>
-                    <a href="#montanhas_tianzi" class="places no-decoration white"><li class="white">Montanhas Tianzi</li></a>
-                    <a href="#santorini" class="places no-decoration white"><li class="white">Santorini</li></a>
-                    <a href="#campos_lavanda" class="places no-decoration white"><li class="white">Campos de Lavanda</li></a>
-                    <a href="#desfiladeiro_antilope" class="places no-decoration white"><li class="white">Desfiladeiro do Antilope</li></a>
-                    <a href="#laguna_roja" class="places no-decoration white"><li class="white">Laguna Roja</li></a>
-                    <a href="#cinque_terre" class="places no-decoration white"><li class="white">Cinque Terre</li></a>
-                    <a href="#geiser_fly" class="places no-decoration white"><li class="white">Fly Ranch Geyser</li></a>
-                    <a href="#shanay_timpishka" class="places no-decoration white"><li class="white">Shanay Timpishka</li></a>
-                    <a href="#bergpark_wilhelmshohe" class="places no-decoration white"><li class="white">Bergpark Wilhelmshöhe</li></a>
-                    <a href="#conceitos_tabela" class="places no-decoration white" style="width: 100%; font-size:30px; background-color:steelblue;"><li class="white">Lugares que não foram colocados na lista - Conceitos de Tabelas</li></a>
+                    <a href="#ponte_ouro" class="places no-decoration white">
+                        <li class="white">Ponte Dourada</li>
+                    </a>
+                    <a href="#perito_moreno" class="places no-decoration white">
+                        <li class="white">Perito Moreno</li>
+                    </a>
+                    <a href="#torre_eiffel" class="places no-decoration white">
+                        <li class="white">Torre Eiffel</li>
+                    </a>
+                    <a href="#reserva_borboletas" class="places no-decoration white">
+                        <li class="white">Reserva Borboletas</li>
+                    </a>
+                    <a href="#aurora_boreal" class="places no-decoration white">
+                        <li class="white">Aurora Boreal</li>
+                    </a>
+                    <a href="#machu_picchu" class="places no-decoration white">
+                        <li class="white">Machu Picchu</li>
+                    </a>
+                    <a href="#montanhas_tianzi" class="places no-decoration white">
+                        <li class="white">Montanhas Tianzi</li>
+                    </a>
+                    <a href="#santorini" class="places no-decoration white">
+                        <li class="white">Santorini</li>
+                    </a>
+                    <a href="#campos_lavanda" class="places no-decoration white">
+                        <li class="white">Campos de Lavanda</li>
+                    </a>
+                    <a href="#desfiladeiro_antilope" class="places no-decoration white">
+                        <li class="white">Desfiladeiro do Antilope</li>
+                    </a>
+                    <a href="#laguna_roja" class="places no-decoration white">
+                        <li class="white">Laguna Roja</li>
+                    </a>
+                    <a href="#cinque_terre" class="places no-decoration white">
+                        <li class="white">Cinque Terre</li>
+                    </a>
+                    <a href="#geiser_fly" class="places no-decoration white">
+                        <li class="white">Fly Ranch Geyser</li>
+                    </a>
+                    <a href="#shanay_timpishka" class="places no-decoration white">
+                        <li class="white">Shanay Timpishka</li>
+                    </a>
+                    <a href="#bergpark_wilhelmshohe" class="places no-decoration white">
+                        <li class="white">Bergpark Wilhelmshöhe</li>
+                    </a>
+                    <a href="#conceitos_tabela" class="places no-decoration white"
+                        style="width: 100%; font-size:30px; background-color:steelblue;">
+                        <li class="white">Lugares que não foram colocados na lista - Conceitos de Tabelas</li>
+                    </a>
                 </ul>
             </nav>
         </section>
         <section id="ponte_ouro" class="white travelsOdd">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
-                <h2 class="center_text title">Ponte Dourada - Ba Na, Vietnã</h2>
-                <h4 class="center_text">Um passeio pelas mãos de deuses nas montanhas do Vietnã</h4>
-            </header>
-            <article>
-                <p class="p_travel">Os turistas que visitam as montanhas de Ba Na, no centro do Vietnã, 
-                    podem se sentir carregados por deuses ao passear pela Ponte Dourada. A passarela construída 
+            <article title="Ponte Dourada">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
+                    <h2 title="Ponte Dourada - Ba Na, Vietnã" class="center_text title">Ponte Dourada - Ba Na, Vietnã
+                    </h2>
+                    <h4 title="Um passeio pelas mãos de deuses nas montanhas do Vietnã" class="center_text">Um passeio
+                        pelas mãos de deuses nas montanhas do Vietnã</h4>
+                </header>
+                <p class="p_travel">Os turistas que visitam as montanhas de Ba Na, no centro do Vietnã,
+                    podem se sentir carregados por deuses ao passear pela Ponte Dourada. A passarela construída
                     em um abismo é sustentada por enormes mãos abertas para o céu, que parecem brotar da montanha.</p>
-                <p class="p_travel">Desde sua inauguração em junho, esta estrutura de 150 metros comprimento e erguida 
-                    a 1.400 metros de altitude perto da cidade de Danang atraiu milhares de turistas e curiosos que a 
+                <p class="p_travel">Desde sua inauguração em junho, esta estrutura de 150 metros de comprimento e erguida
+                    a 1.400 metros de altitude perto da cidade de Danang atraiu milhares de turistas e curiosos que a
                     converteram em um fenômeno viral.</p>
-                <p class="p_travel">Embora as mãos tenham a aparência de uma rocha coberta de musgo, como se estivessem 
-                    ali há séculos expostas, Anh esclarece que estão feitas de aço e fibra de vidro, enquanto a ponte 
+                <p class="p_travel">Embora as mãos tenham a aparência de uma rocha coberta de musgo, como se estivessem
+                    ali há séculos expostas, Anh esclarece que estas são feitas de aço e fibra de vidro, enquanto a ponte
                     dourada ('cau vang' em vietnamita) é de aço inoxidável.</p>
                 <div class="images">
                     <figure class="fig">
-                        <img src="https://th.bing.com/th/id/OIP.gC7CZVsPk35N237bLKMIQQHaED?w=303&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="Ponte Dourada">
+                        <img src="https://th.bing.com/th/id/OIP.gC7CZVsPk35N237bLKMIQQHaED?w=303&h=180&c=7&o=5&dpr=1.25&pid=1.7"
+                            alt="Ponte Dourada">
                         <figcaption class="center_text">Fig.1 - Ponte Dourada - Ba Na, Vietnã</figcaption>
                     </figure>
                     <figure class="fig">
-                        <img src="https://s2.glbimg.com/8__hWK5HjqiaUtI5C4R2o6dEmqM=/smart/e.glbimg.com/og/ed/f/original/2018/07/25/cau-vang-ba-na-hills-da-nang-5-700x393.jpg" alt="Ponte Dourada">
+                        <img src="https://s2.glbimg.com/8__hWK5HjqiaUtI5C4R2o6dEmqM=/smart/e.glbimg.com/og/ed/f/original/2018/07/25/cau-vang-ba-na-hills-da-nang-5-700x393.jpg"
+                            alt="Ponte Dourada">
                         <figcaption class="center_text">Fig.2 - Ponte Dourada - Ba Na, Vietnã</figcaption>
                     </figure>
                 </div>
             </article>
         </section>
         <section id="perito_moreno" class="black travelsPair">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
-                <h2 class="center_text title">Geleira Perito Moreno - Santa Cruz, Argentina</h2>
-                <h4 class="center_text">Já foi chamada de "oitava maravilha do mundo"</h4>
-            </header>
-            <article>
-                <p class="p_travel">A geleira Perito Moreno é um glaciar argentino que está situado entre os 47º e 51º de 
-                    latitude sul. Ela se estende desde o campo de gelo Patagônico Sul, na fronteira entre Argentina e Chile, 
-                    até o braço sul do lago Argentino, possuindo cinco quilômetros de largura e 60 metros de altura. Seu nome 
-                    é uma homenagem a Francisco Pascasio Moreno, criador da Sociedade Científica Argentina e um renomado 
-                    pesquisador da região austral daquele país. O glaciar é considerado uma das reservas de água doce mais importantes do mundo.</p>
-                <p class="p_travel">É uma das geleiras mais imponentes e já foi chamada de a "oitava maravilha do mundo",
-                    devido à vista que se tem de seu topo. Localizada em uma zona rodeada por bosques e montanhas, 
-                    está dentro do Parque Nacional Los Glaciares, criado em 1937 na província de Santa Cruz, 
-                    localizada ao sul da Argentina. Esse parque, de 724.000 hectares possui um total de 356 geleiras.</p>
+            <article title="Galeria Perito Moreno">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
+                    <h2 title="Geleira Perito Moreno - Santa Cruz, Argentina" class="center_text title">Geleira Perito
+                        Moreno - Santa Cruz, Argentina</h2>
+                    <h4 title="Já foi chamada de 'oitava maravilha do mundo'" class="center_text">Já foi chamada de
+                        "oitava maravilha do mundo"</h4>
+                </header>
+                <p class="p_travel">A geleira Perito Moreno é um glaciar argentino que está situado entre os 47º e 51º
+                    de
+                    latitude sul. Ela se estende desde o campo de gelo Patagônico Sul, na fronteira entre Argentina e
+                    Chile,
+                    até o braço sul do lago Argentino, possuindo cinco quilômetros de largura e 60 metros de altura. Seu
+                    nome
+                    é uma homenagem a Francisco Pascasio Moreno, criador da Sociedade Científica Argentina e um renomado
+                    pesquisador da região austral daquele país. O glaciar é considerado uma das reservas de água doce
+                    mais importantes do mundo.</p>
+                <p class="p_travel">É uma das geleiras mais imponentes e já foi chamada de a "oitava maravilha do
+                    mundo",
+                    devido à vista que se tem de seu topo. Localizada em uma zona rodeada por bosques e montanhas,
+                    está dentro do Parque Nacional Los Glaciares, criado em 1937 na província de Santa Cruz,
+                    localizada ao sul da Argentina. Esse parque, de 724.000 hectares possui um total de 356 geleiras.
+                </p>
                 <div class="images">
                     <figure class="fig">
                         <img src="img_travel/perito_moreno01.jpg" alt="Perito Moreno">
@@ -194,30 +264,44 @@
             </article>
         </section>
         <section id="torre_eiffel" class="white travelsOdd">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
-                <h2 class="center_text title">Torre Eiffel - Paris, França</h2>
-                <h4 class="center_text">Os nomes de setenta e dois cientistas, engenheiros e<br> 
-                    outros franceses notáveis estão gravados em reconhecimento<br>
-                    a suas contribuições por Gustave Eiffel.</h4>
-            </header>
-            <article>
-                <p class="p_travel">A Torre Eiffel (em francês: Tour Eiffel, /tuʀ ɛfɛl/) é uma torre treliça de ferro do século XIX
-                    localizada no Champ de Mars, em Paris, a qual se tornou um ícone mundial da França. A torre, que é o edifício mais 
-                    alto da cidade, é o monumento pago mais visitado do mundo, com milhões de pessoas frequentando-o anualmente. 
-                    Nomeada em homenagem ao seu projetista, o engenheiro Gustave Eiffel, foi construída como o arco de 
+            <article title="Torre Eiffel">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
+                    <h2 title="Torre Eiffel - Paris, França" class="center_text title">Torre Eiffel - Paris, França</h2>
+                    <h4 title="Os nomes de setenta e dois cientistas, engenheiros e outros franceses notáveis estão gravados em reconhecimento a suas contribuições por Gustave Eiffel"
+                        class="center_text">
+                        Os nomes de setenta e dois cientistas, engenheiros e<br>
+                        outros franceses notáveis estão gravados em reconhecimento<br>
+                        a suas contribuições por Gustave Eiffel</h4>
+                </header>
+                <p class="p_travel">A Torre Eiffel (em francês: Tour Eiffel, /tuʀ ɛfɛl/) é uma torre treliça de ferro do
+                    século XIX
+                    localizada no Champ de Mars, em Paris, a qual se tornou um ícone mundial da França. A torre, que é o
+                    edifício mais
+                    alto da cidade, é o monumento pago mais visitado do mundo, com milhões de pessoas frequentando-o
+                    anualmente.
+                    Nomeada em homenagem ao seu projetista, o engenheiro Gustave Eiffel, foi construída como o arco de
                     entrada da Exposição Universal de 1889.</p>
-                <p class="p_travel">Possui 324 metros de altura e fica cerca de 15 centímetros mais alta no verão, devido à dilatação 
-                    térmica do ferro. Foi a estrutura mais alta do mundo desde a sua conclusão até 1930, quando perdeu o posto para o 
-                    Chrysler Building, em Nova Iorque, Estados Unidos. Não incluindo as antenas de transmissão, é a segunda estrutura 
-                    mais alta do país, atrás apenas do Viaduto de Millau, concluído em 2004. A torre tem três níveis para os visitantes. 
-                    Os ingressos podem ser adquiridos nas escadas ou elevadores do primeiro e do segundo nível. A caminhada para o primeiro 
-                    nível é superior a 300 degraus. O terceiro e mais alto nível só é acessível por elevador. Do primeiro andar vê-se a 
+                <p class="p_travel">Possui 324 metros de altura e fica cerca de 15 centímetros mais alta no verão,
+                    devido à dilatação
+                    térmica do ferro. Foi a estrutura mais alta do mundo desde a sua conclusão até 1930, quando perdeu o
+                    posto para o
+                    Chrysler Building, em Nova Iorque, Estados Unidos. Não incluindo as antenas de transmissão, é a
+                    segunda estrutura
+                    mais alta do país, atrás apenas do Viaduto de Millau, concluído em 2004. A torre tem três níveis
+                    para os visitantes.
+                    Os ingressos podem ser adquiridos nas escadas ou elevadores do primeiro e do segundo nível. A
+                    caminhada para o primeiro
+                    nível é superior a 300 degraus. O terceiro e mais alto nível só é acessível por elevador. Do
+                    primeiro andar vê-se a
                     cidade inteira, tendo o andar sanitários e várias lojas, e o segundo nível tem um restaurante.</p>
-                <p class="p_travel">A torre tornou-se o símbolo mais proeminente de Paris e da França, sendo parte de cenários de filmes que 
-                    se passam na cidade. Seu estatuto de ícone é tão determinado que ainda serve como um símbolo para todo o país, como quando 
-                    a torre foi usada como o logotipo da candidatura francesa para sediar os Jogos Olímpicos de Verão de 1992.</p>
+                <p class="p_travel">A torre tornou-se o símbolo mais proeminente de Paris e da França, sendo parte de
+                    cenários de filmes que
+                    se passam na cidade. Seu estatuto de ícone é tão determinado que ainda serve como um símbolo para
+                    todo o país, como quando
+                    a torre foi usada como o logotipo da candidatura francesa para sediar os Jogos Olímpicos de Verão de
+                    1992.</p>
                 <div class="images">
                     <figure class="fig">
                         <img src="img_travel/torre_eiffel01.jpg" alt="Torre Eiffel">
@@ -231,48 +315,65 @@
             </article>
         </section>
         <section id="reserva_borboletas" class="black travelsPair">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
-                <h2 class="center_text title">Reserva da Biosfera Borboleta-monarca - México</h2>
-                <h4 class="center_text">Foi declarada Património Mundial pela UNESCO em Julho de 2008</h4>
-            </header>
-            <article>
-                <p class="p_travel">A Reserva da Biosfera Borboleta-monarca (em espanhol Reserva de la Biosfera Mariposa Monarca) 
-                    é uma Reserva da Biosfera situada nas terras altas do México central, criada para proteger o habitat de 
-                    invernadouro e reprodução da borboleta-monarca. Foi declarada Património Mundial pela UNESCO em Julho de 2008.</p>
-                <p class="p_travel">Em Setembro de 1980 foi criada a Zona de Reserva y Refugio Silvestre que incluía os locais de 
-                    reprodução e invernadouro da borboleta-monarca. Em 1986 a zona em causa é declarada <em>"Área Natural Protegida 
-                    para los fines de la Migración, Invernación y Reproducción de la Mariposa Monarca, así como la conservación de 
-                    sus condiciones ambientales"</em>. Em Novembro de 2000 com o o objectivo de aumentara a área abrangida é criada a 
+            <article title="Reserva Biosférica Borboleta-Monarca">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
+                    <h2 title="Reserva da Biosfera Borboleta-monarca - México" class="center_text title">Reserva da
+                        Biosfera Borboleta-monarca - México</h2>
+                    <h4 title="Foi declarada Património Mundial pela UNESCO em Julho de 2008" class="center_text">Foi
+                        declarada Património Mundial pela UNESCO em Julho de 2008</h4>
+                </header>
+                <p class="p_travel">A Reserva da Biosfera Borboleta-monarca (em espanhol Reserva de la Biosfera Mariposa
+                    Monarca)
+                    é uma Reserva da Biosfera situada nas terras altas do México central, criada para proteger o habitat
+                    de
+                    invernadouro e reprodução da borboleta-monarca. Foi declarada Património Mundial pela UNESCO em
+                    Julho de 2008.</p>
+                <p class="p_travel">Em Setembro de 1980 foi criada a Zona de Reserva y Refugio Silvestre que incluía os
+                    locais de
+                    reprodução e invernadouro da borboleta-monarca. Em 1986 a zona em causa é declarada <em>"Área
+                        Natural Protegida
+                        para los fines de la Migración, Invernación y Reproducción de la Mariposa Monarca, así como la
+                        conservación de
+                        sus condiciones ambientales"</em>. Em Novembro de 2000 com o o objectivo de aumentara a área
+                    abrangida é criada a
                     Reserva de la Biosfera Mariposa Monarca.</p>
                 <div class="images">
                     <figure class="fig">
                         <img src="img_travel/reserva_borboleta01.jpg" alt="Reserva das borboletas-monarcas">
-                        <figcaption class="center_text">Fig.7 - Reserva Borboleta-monarca - Michoacán e México, México</figcaption>
+                        <figcaption class="center_text">Fig.7 - Reserva Borboleta-monarca - Michoacán e México, México
+                        </figcaption>
                     </figure>
                     <figure class="fig">
                         <img src="img_travel/reserva_borboleta02.jpg" alt="Reserva das borboletas-monarcas">
-                        <figcaption class="center_text">Fig.8 - Reserva Borboleta-monarca - Michoacán e México, México</figcaption>
+                        <figcaption class="center_text">Fig.8 - Reserva Borboleta-monarca - Michoacán e México, México
+                        </figcaption>
                     </figure>
                 </div>
             </article>
         </section>
         <section id="aurora_boreal" class="white travelsOdd">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
-                <h2 class="center_text title">Aurora Boreal - Islândia</h2>
-                <h4 class="center_text">O fenômeno das luzes</h4>
-            </header>
-            <article>
-                <p class="p_travel">A aurora boreal é um fenômeno muito bonito da natureza que ocorre no polo norte da Terra. Ela resulta 
+            <article title="Aurora Boreal">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
+                    <h2 title="Aurora Boreal - Islândia" class="center_text title">Aurora Boreal - Islândia</h2>
+                    <h4 title="O fenômeno das luzes" class="center_text">O fenômeno das luzes</h4>
+                </header>
+                <p class="p_travel">A aurora boreal é um fenômeno muito bonito da natureza que ocorre no polo norte da
+                    Terra. Ela resulta
                     do impacto dos ventos solares com o campo magnético do planeta.</p>
-                <p class="p_travel">Além de emitir luz, o Sol também emite os ventos solares, que estão repletos de partículas subatômicas carregadas de energia.</p>
-                <p class="p_travel">Chamadas de plasma, essas partículas provocam o fenômeno de luz quando entram em contato com os campos magnéticos dos polos.
-                    As principais cores formadas são o verde e o vermelho. O verde é formado pela emissão de átomos de oxigênio em altas camadas atmosféricas. 
-                    O vermelho é formado pela emissão de átomos de nitrogênio, em maior quantidade, e de oxigênio, em camadas mais baixas. A aurora boreal é visível 
-                    a olho nu. Pode ser vista nos finais da tarde e durante a noite, nos primeiros meses do ano, particularmente em janeiro, fevereiro e março, quando 
+                <p class="p_travel">Além de emitir luz, o Sol também emite os ventos solares, que estão repletos de
+                    partículas subatômicas carregadas de energia.</p>
+                <p class="p_travel">Chamadas de plasma, essas partículas provocam o fenômeno de luz quando entram em
+                    contato com os campos magnéticos dos polos.
+                    As principais cores formadas são o verde e o vermelho. O verde é formado pela emissão de átomos de
+                    oxigênio em altas camadas atmosféricas.
+                    O vermelho é formado pela emissão de átomos de nitrogênio, em maior quantidade, e de oxigênio, em
+                    camadas mais baixas. A aurora boreal é visível
+                    a olho nu. Pode ser vista nos finais da tarde e durante a noite, nos primeiros meses do ano,
+                    particularmente em janeiro, fevereiro e março, quando
                     a maioria da neve já caiu e o céu está limpo no hemisfério norte.</p>
                 <div class="images">
                     <figure class="fig">
@@ -287,27 +388,39 @@
             </article>
         </section>
         <section id="machu_picchu" class="black travelsPair">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
-                <h2 class="center_text title">Machu Picchu - Peru</h2>
-                <h4 class="center_text">A cidade perdida dos Incas</h4>
-            </header>
-            <article>
-                <p class="p_travel">Machu Picchu (em quíchua Machu Picchu, "velha montanha"), também chamada "cidade perdida dos Incas", 
-                    é uma cidade pré-colombiana bem conservada, localizada no topo de uma montanha, a 2 400 metros de altitude, no vale do 
+            <article title="Machu Picchu">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
+                    <h2 title="Machu Picchu - Peru" class="center_text title">Machu Picchu - Peru</h2>
+                    <h4 title="A cidade perdida dos Incas" class="center_text">A cidade perdida dos Incas</h4>
+                </header>
+                <p class="p_travel">Machu Picchu (em quíchua Machu Picchu, "velha montanha"), também chamada "cidade
+                    perdida dos Incas",
+                    é uma cidade pré-colombiana bem conservada, localizada no topo de uma montanha, a 2 400 metros de
+                    altitude, no vale do
                     rio Urubamba, atual Peru.</p>
-                <p class="p_travel">Foi construída no século XV, sob as ordens de Pachacuti. O local é, provavelmente, o símbolo mais típico 
-                    do Império Inca, quer devido à sua original localização e características geológicas, quer devido à sua descoberta tardia 
-                    em 1911. Apenas cerca de 30% da cidade é de construção original, o restante foi reconstruído. As áreas reconstruídas são 
-                    facilmente reconhecidas, pelo encaixe entre as pedras. A construção original é formada por pedras maiores, e com encaixes 
+                <p class="p_travel">Foi construída no século XV, sob as ordens de Pachacuti. O local é, provavelmente, o
+                    símbolo mais típico
+                    do Império Inca, quer devido à sua original localização e características geológicas, quer devido à
+                    sua descoberta tardia
+                    em 1911. Apenas cerca de 30% da cidade é de construção original, o restante foi reconstruído. As
+                    áreas reconstruídas são
+                    facilmente reconhecidas, pelo encaixe entre as pedras. A construção original é formada por pedras
+                    maiores, e com encaixes
                     com pouco espaço entre as rochas.</p>
-                <p class="p_travel">O lugar foi elevado à categoria de Patrimônio mundial da UNESCO, tendo sido alvo de preocupações devido à 
-                    interação com o turismo por ser um dos pontos históricos mais visitados do Peru. A organização suíça New Open World 
-                    Corporation (NOWC) em votação mundial gratuita pela internet e ligações telefônicas (mais de 100 milhões de votos pelo mundo) 
-                    e com analise de arquitetos e arqueólogos classificou Machu Picchu como umas das sete maravilhas do mundo moderno. Há diversas 
-                    teorias sobre a função de Machu Picchu, e a mais aceita afirma que foi um assentamento construído com o objetivo de supervisionar 
-                    a economia das regiões conquistadas e com o propósito secreto de refugiar o soberano Inca e seu séquito mais próximo, no caso de ataque.</p>
+                <p class="p_travel">O lugar foi elevado à categoria de Patrimônio mundial da UNESCO, tendo sido alvo de
+                    preocupações devido à
+                    interação com o turismo por ser um dos pontos históricos mais visitados do Peru. A organização suíça
+                    New Open World
+                    Corporation (NOWC) em votação mundial gratuita pela internet e ligações telefônicas (mais de 100
+                    milhões de votos pelo mundo)
+                    e com analise de arquitetos e arqueólogos classificou Machu Picchu como umas das sete maravilhas do
+                    mundo moderno. Há diversas
+                    teorias sobre a função de Machu Picchu, e a mais aceita afirma que foi um assentamento construído
+                    com o objetivo de supervisionar
+                    a economia das regiões conquistadas e com o propósito secreto de refugiar o soberano Inca e seu
+                    séquito mais próximo, no caso de ataque.</p>
                 <div class="images">
                     <figure class="fig">
                         <img src="img_travel/machu_picchu01.jpg" alt="Machu Picchu">
@@ -321,22 +434,28 @@
             </article>
         </section>
         <section id="montanhas_tianzi" class="white travelsOdd">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
-                <h2 class="center_text title">Montanhas Tianzi - China</h2>
-                <h4 class="center_text">As Filhas do Céu</h4>
-            </header>
-            <article>
-                <p class="p_travel">Um daqueles lugares tão lindos e incríveis que é até difícil de acreditar que existem são as Montanhas Tianzi, que estão 
+            <article title="Montanhas Tianzi">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
+                    <h2 title="Montanhas Tianzi - China" class="center_text title">Montanhas Tianzi - China</h2>
+                    <h4 title="As Filhas do Céu" class="center_text">As Filhas do Céu</h4>
+                </header>
+                <p class="p_travel">Um daqueles lugares tão lindos e incríveis que é até difícil de acreditar que
+                    existem são as Montanhas Tianzi, que estão
                     localizadas na província de Hunan, na China.</p>
-                <p class="p_travel">Esse relevo fica em uma área de 5400 hectares e ondula por 40 quilômetros. É um lugar gigante, e por mais que pareça difícil 
+                <p class="p_travel">Esse relevo fica em uma área de 5400 hectares e ondula por 40 quilômetros. É um
+                    lugar gigante, e por mais que pareça difícil
                     de visitar, há mais de 100 plataformas de observação naturais. </p>
-                <p class="p_travel">A montanha mais alta conta com 1300 metros e está rodeada por mais de 3 mil pilares rochosos que se elevam no meio de uma 
-                    grande vegetação e chegam a ter 200 metros de altura. O lugar é Patrimônio da Humanidade pela Unesco desde 1992 e mantém sua preservação 
+                <p class="p_travel">A montanha mais alta conta com 1300 metros e está rodeada por mais de 3 mil pilares
+                    rochosos que se elevam no meio de uma
+                    grande vegetação e chegam a ter 200 metros de altura. O lugar é Patrimônio da Humanidade pela Unesco
+                    desde 1992 e mantém sua preservação
                     para receber turistas interessados em ver de perto essa verdadeira obra de arte.</p>
-                <p class="p_travel">São mais de 300 milhões de anos de história, o que mostra porque esse atrativo é tão diferente e único no mundo. Cercado 
-                    por muita vegetação, abismos e a natureza em toda a parte, essas montanhas de cor verde estão assim por causa das chuvas que são frequentes 
+                <p class="p_travel">São mais de 300 milhões de anos de história, o que mostra porque esse atrativo é tão
+                    diferente e único no mundo. Cercado
+                    por muita vegetação, abismos e a natureza em toda a parte, essas montanhas de cor verde estão assim
+                    por causa das chuvas que são frequentes
                     e banham as encostas, tendo como resultado essa vegetação bela e densa.</p>
                 <div class="images">
                     <figure class="fig">
@@ -351,35 +470,57 @@
             </article>
         </section>
         <section id="santorini" class="black travelsPair">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
-                <h2 class="center_text title">Santorini - Mar Egeu</h2>
-                <h4 class="center_text">Foi devastada por uma erupção vulcânica no século 16 A.C.</h4>
-            </header>
-            <article>
-                <p class="p_travel">Santorini (Σαντορίνη), chamada oficialmente Tira (em grego: Θήρα) e Tera na Antiguidade, é uma ilha no sul 
-                    do mar Egeu, a cerca de 200 quilômetros a sudeste da Grécia continental. É a maior ilha de um pequeno arquipélago circular 
-                    que leva o mesmo nome e é o resto de uma caldeira vulcânica. O conjunto de ilhas forma o membro mais ao sul do grupo de 
-                    ilhas Cíclades, com uma área de aproximadamente 73 quilômetros quadrados e uma população estimada em 2011 em 15 550 habitantes. 
-                    O município de Santorini compreende as ilhas habitadas de Santorini e Terásia e as ilhas desabitadas de Nova Caméni, Velha Caméni, 
-                    Aspronisi e Cristiana. O arquipélago tem uma área total de 90,623 km² e é parte da unidade periférica grega de Tira.</p>
-                <p class="p_travel">O arquipélago de Santorini é essencialmente o que restou depois de uma gigantesca erupção vulcânica que destruiu 
-                    os primeiros assentamentos humanos que existiam na antiga ilha e que criou a caldeira geológica atual. A enorme lagoa central 
-                    retangular, que mede cerca de 12 por 7 km, é cercada por íngremes penhascos com até 300 metros de altura, em três dos seus lados. 
-                    A ilha principal é inclinada em direção ao mar Egeu. No quarto lado, uma lagoa é separada do mar por uma outra ilha menor chamada 
-                    Terásia. A lagoa está ligada ao mar em dois lugares, a noroeste e sudoeste. A profundidade de 400 metros da cratera torna possível 
-                    que todos os maiores navios de cruzeiro ancorem em qualquer lugar da baía protegida, há também uma marina recém-construído em Vlichada, 
-                    na costa sudoeste. O principal porto da ilha é Atínias. A capital, Fira, localiza-se no topo de um penhasco, de frente para a lagoa da 
-                    caldeira. As rochas vulcânicas presentes de erupções anteriores apresentam olivina e têm uma pequena presença de hornblenda.</p>
-                <p class="p_travel">Santorini é o centro vulcânico mais ativo no arco vulcânico do sul do mar Egeu, embora o que permaneça até hoje seja 
-                    principalmente uma caldeira cheia de água. O arco vulcânico tem aproximadamente 500 km de comprimento e de 20 a 40 quilômetros de largura. 
-                    A região registrou sua primeira atividade vulcânica cerca de 3-4 milhões de anos atrás, apesar de vulcanismo em Tera ter começado há 
+            <article title="Santorini">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
+                    <h2 title="Santorini - Mar Egeu" class="center_text title">Santorini - Mar Egeu</h2>
+                    <h4 title="Foi devastada por uma erupção vulcânica no século 16 A.C." class="center_text">Foi
+                        devastada por uma erupção vulcânica no século 16 A.C.</h4>
+                </header>
+                <p class="p_travel">Santorini (Σαντορίνη), chamada oficialmente Tira (em grego: Θήρα) e Tera na
+                    Antiguidade, é uma ilha no sul
+                    do mar Egeu, a cerca de 200 quilômetros a sudeste da Grécia continental. É a maior ilha de um
+                    pequeno arquipélago circular
+                    que leva o mesmo nome e é o resto de uma caldeira vulcânica. O conjunto de ilhas forma o membro mais
+                    ao sul do grupo de
+                    ilhas Cíclades, com uma área de aproximadamente 73 quilômetros quadrados e uma população estimada em
+                    2011 em 15 550 habitantes.
+                    O município de Santorini compreende as ilhas habitadas de Santorini e Terásia e as ilhas desabitadas
+                    de Nova Caméni, Velha Caméni,
+                    Aspronisi e Cristiana. O arquipélago tem uma área total de 90,623 km² e é parte da unidade
+                    periférica grega de Tira.</p>
+                <p class="p_travel">O arquipélago de Santorini é essencialmente o que restou depois de uma gigantesca
+                    erupção vulcânica que destruiu
+                    os primeiros assentamentos humanos que existiam na antiga ilha e que criou a caldeira geológica
+                    atual. A enorme lagoa central
+                    retangular, que mede cerca de 12 por 7 km, é cercada por íngremes penhascos com até 300 metros de
+                    altura, em três dos seus lados.
+                    A ilha principal é inclinada em direção ao mar Egeu. No quarto lado, uma lagoa é separada do mar por
+                    uma outra ilha menor chamada
+                    Terásia. A lagoa está ligada ao mar em dois lugares, a noroeste e sudoeste. A profundidade de 400
+                    metros da cratera torna possível
+                    que todos os maiores navios de cruzeiro ancorem em qualquer lugar da baía protegida, há também uma
+                    marina recém-construído em Vlichada,
+                    na costa sudoeste. O principal porto da ilha é Atínias. A capital, Fira, localiza-se no topo de um
+                    penhasco, de frente para a lagoa da
+                    caldeira. As rochas vulcânicas presentes de erupções anteriores apresentam olivina e têm uma pequena
+                    presença de hornblenda.</p>
+                <p class="p_travel">Santorini é o centro vulcânico mais ativo no arco vulcânico do sul do mar Egeu,
+                    embora o que permaneça até hoje seja
+                    principalmente uma caldeira cheia de água. O arco vulcânico tem aproximadamente 500 km de
+                    comprimento e de 20 a 40 quilômetros de largura.
+                    A região registrou sua primeira atividade vulcânica cerca de 3-4 milhões de anos atrás, apesar de
+                    vulcanismo em Tera ter começado há
                     aproximadamente 2 milhões de anos.</p>
-                <p class="p_travel">A ilha é o local de uma das maiores erupções vulcânicas já registradas na história humana: a erupção minoica (às vezes 
-                    chamada de erupção de Tera), ocorreu cerca de 3600 anos atrás, no auge da civilização minoica. A erupção deixou uma grande cratera 
-                    rodeada por depósitos de cinzas vulcânicas a centenas de metros de profundidade e pode ter levado, indiretamente, ao colapso da 
-                    civilização minoica na ilha de Creta, 110 km ao sul, através da formação de um gigantesco tsunami. Outra teoria popular diz que a 
+                <p class="p_travel">A ilha é o local de uma das maiores erupções vulcânicas já registradas na história
+                    humana: a erupção minoica (às vezes
+                    chamada de erupção de Tera), ocorreu cerca de 3600 anos atrás, no auge da civilização minoica. A
+                    erupção deixou uma grande cratera
+                    rodeada por depósitos de cinzas vulcânicas a centenas de metros de profundidade e pode ter levado,
+                    indiretamente, ao colapso da
+                    civilização minoica na ilha de Creta, 110 km ao sul, através da formação de um gigantesco tsunami.
+                    Outra teoria popular diz que a
                     erupção de Tera é a fonte da lenda de Atlântida.</p>
                 <div class="images">
                     <figure class="fig">
@@ -394,25 +535,38 @@
             </article>
         </section>
         <section id="campos_lavanda" class="white travelsOdd">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
-                <h2 class="center_text title">Campos de Lavanda - Provença, França</h2>
-                <h4 class="center_text">A beleza da natureza que se colore de lilás</h4>
-            </header>
-            <article>
-                <p class="p_travel">A lavanda (ou alfazema) é o símbolo por excelência da região provençal, e a cada ano atrai um imenso número de visitantes que 
-                    desejam ver os campos floridos. Mas onde e quando ver os campos de lavanda na Provença é uma questão que frequentemente preciso responder. Pra 
-                    facilitar a pesquisa sobre o assunto, decidi reunir neste post todas as informações sobre lavanda que já publiquei aqui, e criar um mapa só com 
+            <article title="Campos de Lavanda">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
+                    <h2 title="Campos de Lavanda - Provença, França" class="center_text title">Campos de Lavanda -
+                        Provença, França</h2>
+                    <h4 title="A beleza da natureza que se colore de lilás" class="center_text">A beleza da natureza que
+                        se colore de lilás</h4>
+                </header>
+                <p class="p_travel">A lavanda (ou alfazema) é o símbolo por excelência da região provençal, e a cada ano
+                    atrai um imenso número de visitantes que
+                    desejam ver os campos floridos. Mas onde e quando ver os campos de lavanda na Provença é uma questão
+                    que frequentemente preciso responder. Pra
+                    facilitar a pesquisa sobre o assunto, decidi reunir neste post todas as informações sobre lavanda
+                    que já publiquei aqui, e criar um mapa só com
                     todos os campos que já visitei na região.</p>
-                <p class="p_travel">A floração da lavanda acontece a partir do fim do mês de junho, e durante um mês os campos se colorem de um lilás impressionante, 
-                    com flores que dançam ao sabor do vento morno. Passear pelos campos de lavanda da Provença, sejam eles a lavanda fina ou híbrida, é um delicioso 
-                    exercício sensorial. A visão dos campos de lavanda impressiona, sentir o perfume que emana das pequeninas flores, o roçar das folhas e flores na 
-                    pele ao caminhar entre os arbustos, escutando o som do suave zumbido das abelhas incansáveis. Para uma experiência sensorial completa, o paladar 
-                    pode se deliciar com sorvetes de lavanda, chás ou ainda mel à das abelhas que se alimentam nos campos.</p>
-                <p class="p_travel">Os campos mais próximos de Aix-en-Provence ficam nos arredores do charmoso vilarejo de Bonnieux, e no caminho entre Gordes e 
-                    Roussillon também há lavanda salpicada aqui e ali. Os campos nos arredores da Abadia de Sénanque são particularmente bonitos, pois compõem 
-                    um belo cenário com o monumento ao fundo. Entre os vilarejos de Buoux e Sivergues também há campos que podem ser visitados durante uma trilha deliciosa.</p>
+                <p class="p_travel">A floração da lavanda acontece a partir do fim do mês de junho, e durante um mês os
+                    campos se colorem de um lilás impressionante,
+                    com flores que dançam ao sabor do vento morno. Passear pelos campos de lavanda da Provença, sejam
+                    eles a lavanda fina ou híbrida, é um delicioso
+                    exercício sensorial. A visão dos campos de lavanda impressiona, sentir o perfume que emana das
+                    pequeninas flores, o roçar das folhas e flores na
+                    pele ao caminhar entre os arbustos, escutando o som do suave zumbido das abelhas incansáveis. Para
+                    uma experiência sensorial completa, o paladar
+                    pode se deliciar com sorvetes de lavanda, chás ou ainda mel à das abelhas que se alimentam nos
+                    campos.</p>
+                <p class="p_travel">Os campos mais próximos de Aix-en-Provence ficam nos arredores do charmoso vilarejo
+                    de Bonnieux, e no caminho entre Gordes e
+                    Roussillon também há lavanda salpicada aqui e ali. Os campos nos arredores da Abadia de Sénanque são
+                    particularmente bonitos, pois compõem
+                    um belo cenário com o monumento ao fundo. Entre os vilarejos de Buoux e Sivergues também há campos
+                    que podem ser visitados durante uma trilha deliciosa.</p>
                 <div class="images">
                     <figure class="fig">
                         <img src="img_travel/campos_lavanda01.jpg" alt="Campos de Lavanda">
@@ -426,78 +580,95 @@
             </article>
         </section>
         <section id="desfiladeiro_antilope" class="black travelsPair">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
-                <h2 class="center_text title">Desfiladeiro do Antílope - Arizona, Estados Unidos da América</h2>
-                <h4 class="center_text">Famoso desfiladeiro em forma de fenda</h4>
-            </header>
-            <article>
-                <p class="p_travel">O Antelope Canyon (em português: Desfiladeiro do Antílope) é um dos cânions estreitos mais visitados e fotografados do Sudoeste americano.
-                    Está localizado nas terras da nação navaja, no Arizona.O Antelope Canyon consiste em duas formações separadas, referidas individualmente como Upper Antelope Canyon (Antelope Canyon Superior) 
+            <article title="Desfiladeiro do Antílope">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
+                    <h2 title="Desfiladeiro do Antílope - Arizona, Estados Unidos da América" class="center_text title">
+                        Desfiladeiro do Antílope - Arizona, Estados Unidos da América</h2>
+                    <h4 title="Famoso desfiladeiro em forma de fenda" class="center_text">Famoso desfiladeiro em forma
+                        de fenda</h4>
+                </header>
+                <p class="p_travel">O Antelope Canyon (em português: Desfiladeiro do Antílope) é um dos cânions
+                    estreitos mais visitados e fotografados do Sudoeste americano.
+                    Está localizado nas terras da nação navaja, no Arizona.O Antelope Canyon consiste em duas formações
+                    separadas, referidas individualmente como Upper Antelope Canyon (Antelope Canyon Superior)
                     e Lower Antelope Canyon (Antelope Canyon Inferior).</p>
-                <<p class="p_travel">Olhar por muito 
-                    tempo a estas formações rochosas, e você começa a 
-                    divagar e esquecer se você está olhando para um 
-                    fenômeno geológico ou de um vasto, pintura a óleo 
-                    abstrata. Os redemoinhos parecem envolvê-lo e, em 
-                    Antelope Canyon eles realmente fazem. Vamos dar um 
-                    passeio por esta mais lindo de desfiladeiros e nos 
-                    perdemos no jogo maravilhoso de luz e padrões que 
-                    cativam seus muitos visitantes a cada ano. Aqui 
-                    reside um dos maiores do planeta galerias de arte 
+                <p class="p_travel">Olhar por muito
+                    tempo a estas formações rochosas, e você começa a
+                    divagar e esquecer se você está olhando para um
+                    fenômeno geológico ou de um vasto, pintura a óleo
+                    abstrata. Os redemoinhos parecem envolvê-lo e, em
+                    Antelope Canyon eles realmente fazem. Vamos dar um
+                    passeio por esta mais lindo de desfiladeiros e nos
+                    perdemos no jogo maravilhoso de luz e padrões que
+                    cativam seus muitos visitantes a cada ano. Aqui
+                    reside um dos maiores do planeta galerias de arte
                     naturais.</p>
-                <p class="p_travel">Antelope Canyon 
-                    encontra-se na terra Navajo, no sudoeste 
-                    americano, situado escondido na paisagem do 
-                    Arizona. Um dos maiores cânions do mundo, é um 
-                    lugar de serenidade esplêndido, o tipo de lugar 
-                    onde as pessoas se encontram conversando em 
-                    sussurros silenciosos, sem saber muito bem 
-                    porquê. Como garganta do entalhe, foi formado ao 
-                    longo de milhares de anos pelo desgaste gradual 
+                <p class="p_travel">Antelope Canyon
+                    encontra-se na terra Navajo, no sudoeste
+                    americano, situado escondido na paisagem do
+                    Arizona. Um dos maiores cânions do mundo, é um
+                    lugar de serenidade esplêndido, o tipo de lugar
+                    onde as pessoas se encontram conversando em
+                    sussurros silenciosos, sem saber muito bem
+                    porquê. Como garganta do entalhe, foi formado ao
+                    longo de milhares de anos pelo desgaste gradual
                     de água correndo através da rocha.</p>
-                <p class="p_travel">Cânions são 
-                    excepcionalmente estreitos, muito mais 
-                    profundos do que elas são largas, e dão voltas 
-                    fantásticas e contornos 
-                    podem ser de até 150 metros de altura, sendo 
-                    observável somente por grupos muito pequenos 
-                    arrastando pelo chão arenoso. O canyon foi 
-                    formado pela erosão do arenito Navajo, 
-                    principalmente devido a inundações que ainda 
-                    ocorrem aqui, fazendo esta obra ainda 
+                <p class="p_travel">Cânions são
+                    excepcionalmente estreitos, muito mais
+                    profundos do que elas são largas, e dão voltas
+                    fantásticas e contornos
+                    podem ser de até 150 metros de altura, sendo
+                    observável somente por grupos muito pequenos
+                    arrastando pelo chão arenoso. O canyon foi
+                    formado pela erosão do arenito Navajo,
+                    principalmente devido a inundações que ainda
+                    ocorrem aqui, fazendo esta obra ainda
                     em andamento.</p>
                 <div class="images">
                     <figure class="fig">
                         <img src="img_travel/desfiladeiro_antilope01.jpg" alt="Desfiladeiro Antilope">
-                        <figcaption class="center_text">Fig.19 - Desfiladeiro do Antílope - Arizona, Estados Unidos da América</figcaption>
+                        <figcaption class="center_text">Fig.19 - Desfiladeiro do Antílope - Arizona, Estados Unidos
+                            da América</figcaption>
                     </figure>
                     <figure class="fig">
                         <img src="img_travel/desfiladeiro_antilope02.jpg" alt="Desfiladeiro Antilope">
-                        <figcaption class="center_text">Fig.20 - Desfiladeiro do Antílope - Arizona, Estados Unidos da América</figcaption>
+                        <figcaption class="center_text">Fig.20 - Desfiladeiro do Antílope - Arizona, Estados Unidos
+                            da América</figcaption>
                     </figure>
                 </div>
             </article>
         </section>
         <section id="laguna_roja" class="white travelsOdd">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
-                <h2 class="center_text title">Laguna Roja - Arica, Chile</h2>
-                <h4 class="center_text">Esta lagoa é vermelha e a água chega a temperatura de 50°C</h4>
-            </header>
-            <article>
-                <p class="p_travel">A Laguna Roja (Lagoa Vermelha em português), é conhecida como um dos lagos de Amuyo, que são lagoas localizadas na região de Arica 
-                    e Parinacota, no norte do Chile. É acessível a partir da cidade de Camiña, que fica a 196 km da cidade de Iquique. Pertence às chamadas "lagoas Amuyo", 
-                    incluindo Roja, Verde e Amarilla, que representam uma importante fonte de entrada de elementos no rio Caritaya.​ As lagoas escorrem pelo rio Caritaya.</p>
-                <p class="p_travel">Esta lagoa tem água quente (aproximadamente 40 - 50°C) também é chamada de Mar Vermelho pelos habitantes da área. De conhecimento popular 
-                    para os moradores, essa lagoa permaneceu desconhecida até 2009 para a Sernatur (serviço chileno de turismo), apesar de sua proximidade e ligação com o 
-                    Reservatório Caritaya. Aproximadamente 3.700 metros acima do nível do mar, sua profundidade é desconhecida para os locais, pois eles atribuem poderes 
-                    sobrenaturais associados a supostos desaparecimentos misteriosos e à morte de Aimaras (povo nativo da América do Sul) que bebiam de suas águas. As "lagoas 
-                    irmãs", que contêm águas amarelas e verdes, começam a borbulhar quando cercadas por pessoas desagradáveis, de acordo com a tradição popular. O lago verde 
-                    é atribuído ao sexo masculino, enquanto a lagoa vermelha e amarela é atribuída à feminilidade. A razão pela qual essas águas são tingidas em cores pode 
-                    ser devido a algas que habitam suas profundezas, ou também por causa das pedras que mancham a água com suas cores.</p>
+            <article title="Laguna Roja">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
+                    <h2 title="Laguna Roja - Arica, Chile" class="center_text title">Laguna Roja - Arica, Chile</h2>
+                    <h4 title="Esta lagoa é vermelha e a água chega a temperatura de 50°C" class="center_text">Esta
+                        lagoa é vermelha e a água chega a temperatura de 50°C</h4>
+                </header>
+                <p class="p_travel">A Laguna Roja (Lagoa Vermelha em português), é conhecida como um dos lagos de Amuyo,
+                    que são lagoas localizadas na região de Arica
+                    e Parinacota, no norte do Chile. É acessível a partir da cidade de Camiña, que fica a 196 km da
+                    cidade de Iquique. Pertence às chamadas "lagoas Amuyo",
+                    incluindo Roja, Verde e Amarilla, que representam uma importante fonte de entrada de elementos no
+                    rio Caritaya.​ As lagoas escorrem pelo rio Caritaya.</p>
+                <p class="p_travel">Esta lagoa tem água quente (aproximadamente 40 - 50°C) também é chamada de Mar
+                    Vermelho pelos habitantes da área. De conhecimento popular
+                    para os moradores, essa lagoa permaneceu desconhecida até 2009 para a Sernatur (serviço chileno de
+                    turismo), apesar de sua proximidade e ligação com o
+                    Reservatório Caritaya. Aproximadamente 3.700 metros acima do nível do mar, sua profundidade é
+                    desconhecida para os locais, pois eles atribuem poderes
+                    sobrenaturais associados a supostos desaparecimentos misteriosos e à morte de Aimaras (povo nativo
+                    da América do Sul) que bebiam de suas águas. As "lagoas
+                    irmãs", que contêm águas amarelas e verdes, começam a borbulhar quando cercadas por pessoas
+                    desagradáveis, de acordo com a tradição popular. O lago verde
+                    é atribuído ao sexo masculino, enquanto a lagoa vermelha e amarela é atribuída à feminilidade. A
+                    razão pela qual essas águas são tingidas em cores pode
+                    ser devido a algas que habitam suas profundezas, ou também por causa das pedras que mancham a água
+                    com suas cores.</p>
                 <div class="images">
                     <figure class="fig">
                         <img src="img_travel/laguna_roja01.jpg" alt="Campos de Lavanda">
@@ -511,98 +682,104 @@
             </article>
         </section>
         <section id="cinque_terre" class="black travelsPair">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
-                <h2 class="center_text title">Cinque Terre - Spezia, Itália</h2>
-                <h4 class="center_text">Conjunto de 5 vilas centenárias</h4>
-            </header>
-            <article>
-                <p class="p_travel">Cinque Terre é um conjunto de vilas centenárias 
-                    à beira-mar na acidentada costa da Riviera Italiana. Em cada uma 
-                    das 5 cidades, casas coloridas e vinhedos agarram-se aos terraços 
-                    íngremes, os portos estão repletos de barcos de pesca e as trattorias 
-                    servem especialidades de frutos do mar juntamente com o famoso molho 
-                    da região de Ligúria, o pesto. A trilha para caminhada Sentiero Azzurro, 
+            <article title="Cinque Terre">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
+                    <h2 title="Cinque Terre - Spezia, Itália" class="center_text title">Cinque Terre - Spezia, Itália
+                    </h2>
+                    <h4 title="Conjunto de 5 vilas centenárias" class="center_text">Conjunto de 5 vilas centenárias</h4>
+                </header>
+                <p class="p_travel">Cinque Terre é um conjunto de vilas centenárias
+                    à beira-mar na acidentada costa da Riviera Italiana. Em cada uma
+                    das 5 cidades, casas coloridas e vinhedos agarram-se aos terraços
+                    íngremes, os portos estão repletos de barcos de pesca e as trattorias
+                    servem especialidades de frutos do mar juntamente com o famoso molho
+                    da região de Ligúria, o pesto. A trilha para caminhada Sentiero Azzurro,
                     ladeada por penhascos, liga as vilas e oferece vistas panorâmicas para o mar.
-                    é um acidentado trecho de terra, na Itália, na costa da Riviera Ligure situado 
-                    entre Punta Mesco próximo a Levanto e o cabo de Montenero próximo a 
-                    Portovenere e compreende as comunas de Monterosso, Vernazza, Riomaggiore com 
-                    os distritos de Corniglia e Manarola. Constituem uma das principais atrações 
+                    é um acidentado trecho de terra, na Itália, na costa da Riviera Ligure situado
+                    entre Punta Mesco próximo a Levanto e o cabo de Montenero próximo a
+                    Portovenere e compreende as comunas de Monterosso, Vernazza, Riomaggiore com
+                    os distritos de Corniglia e Manarola. Constituem uma das principais atrações
                     turísticas da Riviera Ligure.</p>
-                <<p class="p_travel">Estas localidades, que junto com Porto Venere e as ilhas de 
-                    Palmaria, ilha de Tino e Tinetto foram declaradas em 1997 Patrimônio da 
-                    Humanidade pela UNESCO, são caracterizadas pelo relevo montanhoso próximo ao 
-                    mar. Típicos desta zona são os terraços devidos à particular técnica agrícola 
+                <<p class="p_travel">Estas localidades, que junto com Porto Venere e as ilhas de
+                    Palmaria, ilha de Tino e Tinetto foram declaradas em 1997 Patrimônio da
+                    Humanidade pela UNESCO, são caracterizadas pelo relevo montanhoso próximo ao
+                    mar. Típicos desta zona são os terraços devidos à particular técnica agrícola
                     usada para usufruir tanto quanto possível os terrenos com grande inclinação.</p>
-                <p class="p_travel">Em 1999 foi instituído o Parque Nacional de Cinque Terre cujo 
-                    território se estende da zona de Tramonti, na comuna de la Spezia, à comuna de
-                     Monterosso. O parque tem a particularidade de ser o único na Itália em ambiente 
-                     trabalhado pelo homem. Um de seus objetivos é, de fato, proteger os terraços e 
-                     os muros que o contêm.</p>
-                <p class="p_travel">Próximo à costa foi instituída a Área Marinha Natural Protegida 
-                    de Cinque Terre, compreendida entre a Punta Mesco e o Cabo de Montenero, classificados 
-                    como "zona A". A reserva tem o objetivo de proteger flora e fauna que, dada a 
-                    conformação rochosa da costa, apresentam, já a baixa profundidade, particularidades 
-                    não comuns no resto do mar Mediterrâneo.</p>
-                <div class="images">
-                    <figure class="fig">
-                        <img src="img_travel/cinque_terre01.jpg" alt="Cinque Terre">
-                        <figcaption class="center_text">Fig.23 - Cinque Terre - Spezia, Itália</figcaption>
-                    </figure>
-                    <figure class="fig">
-                        <img src="img_travel/cinque_terre02.jpg" alt="Cinque Terre">
-                        <figcaption class="center_text">Fig.24 - Cinque Terre - Spezia, Itália</figcaption>
-                    </figure>
-                </div>
+                    <p class="p_travel">Em 1999 foi instituído o Parque Nacional de Cinque Terre cujo
+                        território se estende da zona de Tramonti, na comuna de la Spezia, à comuna de
+                        Monterosso. O parque tem a particularidade de ser o único na Itália em ambiente
+                        trabalhado pelo homem. Um de seus objetivos é, de fato, proteger os terraços e
+                        os muros que o contêm.</p>
+                    <p class="p_travel">Próximo à costa foi instituída a Área Marinha Natural Protegida
+                        de Cinque Terre, compreendida entre a Punta Mesco e o Cabo de Montenero, classificados
+                        como "zona A". A reserva tem o objetivo de proteger flora e fauna que, dada a
+                        conformação rochosa da costa, apresentam, já a baixa profundidade, particularidades
+                        não comuns no resto do mar Mediterrâneo.</p>
+                    <div class="images">
+                        <figure class="fig">
+                            <img src="img_travel/cinque_terre01.jpg" alt="Cinque Terre">
+                            <figcaption class="center_text">Fig.23 - Cinque Terre - Spezia, Itália</figcaption>
+                        </figure>
+                        <figure class="fig">
+                            <img src="img_travel/cinque_terre02.jpg" alt="Cinque Terre">
+                            <figcaption class="center_text">Fig.24 - Cinque Terre - Spezia, Itália</figcaption>
+                        </figure>
+                    </div>
             </article>
         </section>
         <section id="geiser_fly" class="white travelsOdd">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
-                <h2 class="center_text title">Fly Ranch Geyser - Nevada, Estados Unidos da América</h2>
-                <h4 class="center_text">Intervenção humana e natureza se unem nesta paisagem surreal</h4>
-            </header>
-            <article>
-                <p class="p_travel">Este lugar existe e, apesar de ter tido um empurrãozinho do homem, 
-                    é um feito da natureza. O Fly Ranch Geyser, localizado perto de Gerlach, no condado 
-                    de Washoe, Nevada, EUA, foi feito acidentalmente em 1916, durante uma perfuração de 
-                    poços. Mas foi só na década de 1960 que o gêiser, um tipo de vulcão que jorra água, 
-                    começou a cuspir o líquido quente, cheio de minerais dissolvidos e bactérias. Tudo 
-                    isso, acumulado por meio século, resultou na criação de uma montanha multicolorida 
+            <article title="Fly Ranch Geyser">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
+                    <h2 title="Fly Ranch Geyser - Nevada, Estados Unidos da América" class="center_text title">Fly Ranch
+                        Geyser - Nevada, Estados Unidos da América</h2>
+                    <h4 title="Intervenção humana e natureza se unem nesta paisagem surreal" class="center_text">
+                        Intervenção humana e natureza se unem nesta paisagem surreal</h4>
+                </header>
+                <p class="p_travel">Este lugar existe e, apesar de ter tido um empurrãozinho do homem,
+                    é um feito da natureza. O Fly Ranch Geyser, localizado perto de Gerlach, no condado
+                    de Washoe, Nevada, EUA, foi feito acidentalmente em 1916, durante uma perfuração de
+                    poços. Mas foi só na década de 1960 que o gêiser, um tipo de vulcão que jorra água,
+                    começou a cuspir o líquido quente, cheio de minerais dissolvidos e bactérias. Tudo
+                    isso, acumulado por meio século, resultou na criação de uma montanha multicolorida
                     que espirra jatos com mais de cinco metros de altura.</p>
-                <p class="p_travel">A notícia triste: esse fenômeno natural só pode ser visto por pessoas 
-                    selecionadas. O Fly Ranch Geyser está dentro de uma propriedade privada, portanto a 
+                <p class="p_travel">A notícia triste: esse fenômeno natural só pode ser visto por pessoas
+                    selecionadas. O Fly Ranch Geyser está dentro de uma propriedade privada, portanto a
                     visitação é proibida.</p>
                 <div class="images">
                     <figure class="fig">
                         <img src="img_travel/geiser_fly01.jpg" alt="Fly Ranch Geyser">
-                        <figcaption class="center_text">Fig.25 - Fly Ranch Geyser - Nevada, Estados Unidos da América</figcaption>
+                        <figcaption class="center_text">Fig.25 - Fly Ranch Geyser - Nevada, Estados Unidos da América
+                        </figcaption>
                     </figure>
                     <figure class="fig">
                         <img src="img_travel/geiser_fly02.jpg" alt="Fly Ranch Geyser">
-                        <figcaption class="center_text">Fig.26 - Fly Ranch Geyser - Nevada, Estados Unidos da América</figcaption>
+                        <figcaption class="center_text">Fig.26 - Fly Ranch Geyser - Nevada, Estados Unidos da América
+                        </figcaption>
                     </figure>
                 </div>
             </article>
         </section>
         <section id="shanay_timpishka" class="black travelsPair">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
-                <h2 class="center_text title">Shanay Timpishka - Peru</h2>
-                <h4 class="center_text">Rio peruano que ferve no meio da Amazônia</h4>
-            </header>
-            <article>
-                <p class="p_travel">O Shanay-Timpishka, também conhecido como La Bomba, 
-                    é um afluente do rio Amazonas, chamado de "único rio fervente do 
-                    mundo". Possui 6,4 km de extensão. É conhecido pela temperatura muito 
-                    alta de suas águas - de 45°C a quase 100°C. O nome significa 'fervido 
-                    pelo calor do sol', embora a fonte do calor seja geotérmica. O rio está 
-                    localizado no santuário Mayantuyacu, parte da floresta alta de Huánuco. 
-                    A área é habitada por uma comunidade Asháninka. Andrés Ruzo, um cientista 
-                    geotérmico, investigou a fonte do calor. Ele inicialmente aprendeu quando 
+            <article title="Shanay Timpishka">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
+                    <h2 title="Shanay Timpishka - Peru" class="center_text title">Shanay Timpishka - Peru</h2>
+                    <h4 title="Rio peruano que ferve no meio da Amazônia" class="center_text">Rio peruano que ferve no
+                        meio da Amazônia</h4>
+                </header>
+                <p class="p_travel">O Shanay-Timpishka, também conhecido como La Bomba,
+                    é um afluente do rio Amazonas, chamado de "único rio fervente do
+                    mundo". Possui 6,4 km de extensão. É conhecido pela temperatura muito
+                    alta de suas águas - de 45°C a quase 100°C. O nome significa 'fervido
+                    pelo calor do sol', embora a fonte do calor seja geotérmica. O rio está
+                    localizado no santuário Mayantuyacu, parte da floresta alta de Huánuco.
+                    A área é habitada por uma comunidade Asháninka. Andrés Ruzo, um cientista
+                    geotérmico, investigou a fonte do calor. Ele inicialmente aprendeu quando
                     era criança com seu avô.</p>
                 <div class="images">
                     <figure class="fig">
@@ -617,20 +794,22 @@
             </article>
         </section>
         <section id="bergpark_wilhelmshohe" class="white travelsOdd">
-            <header>
-                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
-                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
-                <h2 class="center_text title">Bergpark Wilhelmshöhe - Kassel, Alemanha</h2>
-                <h4 class="center_text">O parque demorou cerca de 150 anos para ficar pronto</h4>
-            </header>
-            <article>
-                <p class="p_travel">O Bergpark Wilhelmshöhe é um parque em Kassel, Alemanha. Possui 2,4 km2. 
-                    Sua construção começou em 1696 e demorou cerca de 150 anos. O parque possui a maior área 
-                    verde em colina da Europa. É famoso principalmente pelo Monumento a Ercole e a cascata em 
+            <article title="Bergpark Wilhelmshöhe">
+                <header>
+                    <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                    <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
+                    <h2 title="Bergpark Wilhelmshöhe - Kassel, Alemanha" class="center_text title">Bergpark Wilhelmshöhe
+                        - Kassel, Alemanha</h2>
+                    <h4 title="O parque demorou cerca de 150 anos para ficar pronto" class="center_text">O parque
+                        demorou cerca de 150 anos para ficar pronto</h4>
+                </header>
+                <p class="p_travel">O Bergpark Wilhelmshöhe é um parque em Kassel, Alemanha. Possui 2,4 km2.
+                    Sua construção começou em 1696 e demorou cerca de 150 anos. O parque possui a maior área
+                    verde em colina da Europa. É famoso principalmente pelo Monumento a Ercole e a cascata em
                     pedra criada pelo arquiteto Giovanni Francesco Guerniero.</p>
-                <p class="p_travel">Foi inscrito como Patrimônio Mundial da UNESCO pelo "seu tamanho e por suas 
-                    quedas d´água que, em conjunto com a estátua de Hércules constituem uma expressão dos ideais 
-                    absolutistas da Monarquia enquanto o conjunto é um testemunho impressionante da estética dos 
+                <p class="p_travel">Foi inscrito como Patrimônio Mundial da UNESCO pelo "seu tamanho e por suas
+                    quedas d´água que, em conjunto com a estátua de Hércules constituem uma expressão dos ideais
+                    absolutistas da Monarquia enquanto o conjunto é um testemunho impressionante da estética dos
                     períodos Barroco e Romântico..."</p>
                 <div class="images">
                     <figure class="fig">
@@ -646,33 +825,39 @@
         </section>
         <footer>
             <style>
-                td, th {
+                td,
+                th {
                     border: solid 1px #FFF;
                 }
+
                 .br-location {
                     background-color: yellow;
                     font-weight: bold;
                 }
+
                 .br-state {
                     background-color: green;
                 }
+
                 .ext-location {
-                    background-color:red;
+                    background-color: red;
                     font-weight: bold;
                 }
+
                 .ext-state {
                     background-color: royalblue;
                 }
             </style>
             <header style="display: flex; align-items: center; justify-content: center; width:80%; margin: auto">
                 <a href="#navigation"><button style="position: relative; margin-top: 30px">Menu</button></a>
-                <h2 class="white" style="margin: 30px;" id="conceitos_tabela">Conceitos - tabela</h2>
+                <h2 title="Conceitos - tabela" class="white" style="margin: 30px;" id="conceitos_tabela">Conceitos -
+                    tabela</h2>
                 <a href="#inicio"><button style="position:relative; margin-top: 30px">Início</button></a>
             </header>
             <table style="margin: 20px auto; color: white; border: solid 1px #FFF; width: 80%; text-align: center;">
                 <tr>
                     <td rowspan="30" style="font-size: 20px">Lugares<br>que não<br>entraram<br>na lista</td>
-                    <td colspan="4">MUNDO			
+                    <td colspan="4">MUNDO
                     </td>
                 </tr>
                 <tr>
@@ -851,4 +1036,5 @@
         </footer>
     </main>
 </body>
+
 </html>
