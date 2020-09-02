@@ -55,12 +55,21 @@
         .back-from-pair {
             background-color: seagreen;
         }
-        .back {
+        .back-nav {
             margin: 20px;
             position: absolute;
             text-align: center;
             font-weight: bold;
             font-size: 18px;
+        }
+
+        .back-ini {
+            margin: 60px 20px;
+            position: absolute;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+
         }
         .travelsPair {
             background-color:skyblue;
@@ -91,13 +100,19 @@
 <body style="background-color:rgb(15, 15, 66);">
     <main class="center" style="width: 60%;">
         <section id="inicio">
-            <h1 class="center_text white" id="top_menu">15 Destinos para viagens</h1>
+            <h1 class="center_text white">15 Destinos para viagens</h1>
             <p class="center_text white"><em>"Viajar é trocar a roupa da alma".</em><strong>&nbsp Mario Quintana</strong></p>
             <p class="center_text white"><em>"Morre lentamente quem não viaja, quem não lê, quem não ouve música, quem não encontra graça em si mesmo".</em><strong>&nbsp Martha Medeiros</strong></p>
             <p class="center_text white"><em>"O mundo é um livro e quem não viaja lê apenas a primeira página".</em><strong>&nbsp Santo Agostinho</strong></p>
             <p class="center_text white"><em>"Estou apaixonada por cidades onde nunca estive e pessoas que nunca conheci".</em><strong>&nbsp Melody Truong</strong></p>
             <p class="center_text white"><em>"Digo: o real não está na saída nem na chegada: ele se dispõe para a gente é no meio da travessia".</em><strong>&nbsp João Guimarães Rosa</strong></p>
-        </section>+
+        </section>
+        <section id="img_travel">
+            <figure>
+                <img src="img_travel/travel.jpg" alt="imagem de viagem">
+                <figcaption class="center_text white">Fig.0 - Imagem de Viagem</figcaption>
+            </figure>
+        </section>
         <section id="navigation">
             <nav>
                 <ul style="display: flex; flex-wrap: wrap; justify-content: space-around; padding: 0">
@@ -121,7 +136,8 @@
         </section>
         <section id="ponte_ouro" class="white travelsOdd">
             <header>
-                <a href="#inicio"><button class="back back-from-odd">Início</button></a>
+                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
                 <h2 class="center_text title">Ponte Dourada - Ba Na, Vietnã</h2>
                 <h4 class="center_text">Um passeio pelas mãos de deuses nas montanhas do Vietnã</h4>
             </header>
@@ -149,7 +165,8 @@
         </section>
         <section id="perito_moreno" class="black travelsPair">
             <header>
-                <a href="#inicio"><button class="back back-from-pair">Início</button></a>
+                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
                 <h2 class="center_text title">Geleira Perito Moreno - Santa Cruz, Argentina</h2>
                 <h4 class="center_text">Já foi chamada de "oitava maravilha do mundo"</h4>
             </header>
@@ -177,7 +194,8 @@
         </section>
         <section id="torre_eiffel" class="white travelsOdd">
             <header>
-                <a href="#inicio"><button class="back back-from-odd">Início</button></a>
+                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
                 <h2 class="center_text title">Torre Eiffel - Paris, França</h2>
                 <h4 class="center_text">Os nomes de setenta e dois cientistas, engenheiros e 
                     outros franceses notáveis estão gravados em reconhecimento a suas contribuições por Gustave Eiffel.</h4>
@@ -212,7 +230,8 @@
         </section>
         <section id="reserva_borboletas" class="black travelsPair">
             <header>
-                <a href="#inicio"><button class="back back-from-pair">Início</button></a>
+                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
                 <h2 class="center_text title">Reserva da Biosfera Borboleta-monarca - México</h2>
                 <h4 class="center_text">Foi declarada Património Mundial pela UNESCO em Julho de 2008</h4>
             </header>
@@ -239,7 +258,8 @@
         </section>
         <section id="aurora_boreal" class="white travelsOdd">
             <header>
-                <a href="#inicio"><button class="back back-from-odd">Início</button></a>
+                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
                 <h2 class="center_text title">Aurora Boreal - Islândia</h2>
                 <h4 class="center_text">O fenômeno das luzes</h4>
             </header>
@@ -266,7 +286,8 @@
         </section>
         <section id="machu_picchu" class="black travelsPair">
             <header>
-                <a href="#inicio"><button class="back back-from-pair">Início</button></a>
+                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
                 <h2 class="center_text title">Machu Picchu - Peru</h2>
                 <h4 class="center_text">A cidade perdida dos Incas</h4>
             </header>
@@ -299,7 +320,8 @@
         </section>
         <section id="montanhas_tianzi" class="white travelsOdd">
             <header>
-                <a href="#inicio"><button class="back back-from-odd">Início</button></a>
+                <a href="#navigation"><button class="back-nav back-from-odd">Menu</button></a>
+                <a href="#inicio"><button class="back-ini back-from-odd">Início</button></a>
                 <h2 class="center_text title">Montanhas Tianzi - China</h2>
                 <h4 class="center_text">As Filhas do Céu</h4>
             </header>
@@ -328,7 +350,8 @@
         </section>
         <section id="santorini" class="black travelsPair">
             <header>
-                <a href="#inicio"><button class="back back-from-pair">Início</button></a>
+                <a href="#navigation"><button class="back-nav back-from-pair">Menu</button></a>
+                <a href="#inicio"><button class="back-ini back-from-pair">Início</button></a>
                 <h2 class="center_text title">Santorini - Mar Egeu</h2>
                 <h4 class="center_text">Foi devastada por uma erupção vulcânica no século 16 A.C.</h4>
             </header>
