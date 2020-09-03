@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(15, 15, 66);
+}
+
+.main {
+    width: 60%;
+}
+
+nav ul {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 0;
+}
+
+.center {
+    margin: auto;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.white {
+    color: azure;
+}
+
+.black {
+    color: #000;
+}
+
+.places {
+    width: 20%;
+    padding: 20px 0;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.places:hover {
+    background-color: cornflowerblue;
+    border: solid 1px #000;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+#navigation {
+    background-color: darkcyan;
+}
+
+.travelsOdd {
+    background-color: seagreen;
+    padding-bottom: 30px;
+}
+
+.back-from-odd {
+    background-color: skyblue;
+}
+
+.back-from-pair {
+    background-color: seagreen;
+}
+
+.back-nav {
+    margin: 20px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.back-ini {
+    margin: 60px 20px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.travelsPair {
+    background-color: skyblue;
+    padding-bottom: 30px;
+}
+
+.p_travel {
+    margin: 0 60px;
+    text-align: justify;
+    line-height: 27px;
+    text-indent: 20px;
+}
+
+.title {
+    padding-top: 30px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.fig {
+    width: 50%;
+    display: block;
+}
+
+.images {
+    display: flex;
+}
+
+.table-concepts {
+    width: 100%; 
+    font-size:30px; 
+    background-color:steelblue;
+}
+
+.not-included {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width:80%; 
+    margin: auto;
+}
+
+.btn-not-included {
+    position: relative; 
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#conceitos_tabela {
+    margin: 30px;
+}
+
+#tb-not-included {
+    margin: 20px auto; 
+    border: solid 1px #FFF; 
+    width: 80%; 
+    text-align: center;
+}
+
+.tb-side {
+    font-size: 20px;
+}
+
+.br,
+.ext {
+    width: 50%;
+}
+td,
+th {
+    border: solid 1px #FFF;
+}
+
+.br-location {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.br-state {
+    background-color: green;
+}
+
+.ext-location {
+    background-color: red;
+    font-weight: bold;
+}
+
+.ext-state {
+    background-color: royalblue;
+}

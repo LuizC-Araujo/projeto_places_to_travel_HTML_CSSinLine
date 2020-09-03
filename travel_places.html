@@ -9,116 +9,11 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name="description" content="aprendendo HTML">
     <meta name="keywords" content="HTML, web, cps, fatec, atividade2">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        .center {
-            margin: auto;
-        }
-
-        .center_text {
-            text-align: center;
-        }
-
-        .white {
-            color: azure;
-        }
-
-        .black {
-            color: #000;
-        }
-
-        .places {
-            width: 20%;
-            padding: 20px 0;
-            text-decoration: none;
-            text-align: center;
-            list-style-type: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .places:hover {
-            background-color: cornflowerblue;
-            border: solid 1px #000;
-        }
-
-        .no-decoration {
-            text-decoration: none;
-        }
-
-        #navigation {
-            background-color: darkcyan;
-        }
-
-        .travelsOdd {
-            background-color: seagreen;
-            padding-bottom: 30px;
-        }
-
-        .back-from-odd {
-            background-color: skyblue;
-        }
-
-        .back-from-pair {
-            background-color: seagreen;
-        }
-
-        .back-nav {
-            margin: 20px;
-            position: absolute;
-            text-align: center;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        .back-ini {
-            margin: 60px 20px;
-            position: absolute;
-            text-align: center;
-            font-weight: bold;
-            font-size: 18px;
-
-        }
-
-        .travelsPair {
-            background-color: skyblue;
-            padding-bottom: 30px;
-        }
-
-        .p_travel {
-            margin: 0 60px;
-            text-align: justify;
-            line-height: 27px;
-            text-indent: 20px;
-        }
-
-        .title {
-            padding-top: 30px;
-        }
-
-        img {
-            width: 100%;
-            border-radius: 20px;
-            margin: auto;
-        }
-
-        .fig {
-            width: 50%;
-            display: block;
-        }
-
-        .images {
-            display: flex;
-        }
-    </style>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 </head>
 
-<body style="background-color:rgb(15, 15, 66);">
-    <main class="center" style="width: 60%;">
+<body>
+    <main class="center main">
         <section id="inicio">
             <h1 class="center_text white">15 Destinos para viagens</h1>
             <p class="center_text white"><em>"Viajar é trocar a roupa da alma".</em><strong>&nbsp Mario
@@ -140,55 +35,54 @@
         </section>
         <section id="navigation">
             <nav>
-                <ul style="display: flex; flex-wrap: wrap; justify-content: space-around; padding: 0">
+                <ul>
                     <a href="#ponte_ouro" class="places no-decoration white">
-                        <li class="white">Ponte Dourada</li>
+                        <li>Ponte Dourada</li>
                     </a>
                     <a href="#perito_moreno" class="places no-decoration white">
-                        <li class="white">Perito Moreno</li>
+                        <li>Perito Moreno</li>
                     </a>
                     <a href="#torre_eiffel" class="places no-decoration white">
-                        <li class="white">Torre Eiffel</li>
+                        <li>Torre Eiffel</li>
                     </a>
                     <a href="#reserva_borboletas" class="places no-decoration white">
-                        <li class="white">Reserva Borboletas</li>
+                        <li>Reserva Borboletas</li>
                     </a>
                     <a href="#aurora_boreal" class="places no-decoration white">
-                        <li class="white">Aurora Boreal</li>
+                        <li>Aurora Boreal</li>
                     </a>
                     <a href="#machu_picchu" class="places no-decoration white">
-                        <li class="white">Machu Picchu</li>
+                        <li>Machu Picchu</li>
                     </a>
                     <a href="#montanhas_tianzi" class="places no-decoration white">
-                        <li class="white">Montanhas Tianzi</li>
+                        <li>Montanhas Tianzi</li>
                     </a>
                     <a href="#santorini" class="places no-decoration white">
-                        <li class="white">Santorini</li>
+                        <li>Santorini</li>
                     </a>
                     <a href="#campos_lavanda" class="places no-decoration white">
-                        <li class="white">Campos de Lavanda</li>
+                        <li>Campos de Lavanda</li>
                     </a>
                     <a href="#desfiladeiro_antilope" class="places no-decoration white">
-                        <li class="white">Desfiladeiro do Antilope</li>
+                        <li>Desfiladeiro do Antilope</li>
                     </a>
                     <a href="#laguna_roja" class="places no-decoration white">
-                        <li class="white">Laguna Roja</li>
+                        <li>Laguna Roja</li>
                     </a>
                     <a href="#cinque_terre" class="places no-decoration white">
-                        <li class="white">Cinque Terre</li>
+                        <li>Cinque Terre</li>
                     </a>
                     <a href="#geiser_fly" class="places no-decoration white">
-                        <li class="white">Fly Ranch Geyser</li>
+                        <li>Fly Ranch Geyser</li>
                     </a>
                     <a href="#shanay_timpishka" class="places no-decoration white">
-                        <li class="white">Shanay Timpishka</li>
+                        <li>Shanay Timpishka</li>
                     </a>
                     <a href="#bergpark_wilhelmshohe" class="places no-decoration white">
-                        <li class="white">Bergpark Wilhelmshöhe</li>
+                        <li>Bergpark Wilhelmshöhe</li>
                     </a>
-                    <a href="#conceitos_tabela" class="places no-decoration white"
-                        style="width: 100%; font-size:30px; background-color:steelblue;">
-                        <li class="white">Lugares que não foram colocados na lista - Conceitos de Tabelas</li>
+                    <a href="#conceitos_tabela" class="places no-decoration white table-concepts"> 
+                        <li>Lugares que não foram colocados na lista - Conceitos de Tabelas</li>
                     </a>
                 </ul>
             </nav>
@@ -824,45 +718,21 @@
             </article>
         </section>
         <footer>
-            <style>
-                td,
-                th {
-                    border: solid 1px #FFF;
-                }
-
-                .br-location {
-                    background-color: yellow;
-                    font-weight: bold;
-                }
-
-                .br-state {
-                    background-color: green;
-                }
-
-                .ext-location {
-                    background-color: red;
-                    font-weight: bold;
-                }
-
-                .ext-state {
-                    background-color: royalblue;
-                }
-            </style>
-            <header style="display: flex; align-items: center; justify-content: center; width:80%; margin: auto">
-                <a href="#navigation"><button style="position: relative; margin-top: 30px">Menu</button></a>
-                <h2 title="Conceitos - tabela" class="white" style="margin: 30px;" id="conceitos_tabela">Conceitos -
+            <header class="not-included">
+                <a href="#navigation"><button class="btn-not-included">Menu</button></a>
+                <h2 title="Conceitos - tabela" class="white" id="conceitos_tabela">Conceitos -
                     tabela</h2>
-                <a href="#inicio"><button style="position:relative; margin-top: 30px">Início</button></a>
+                <a href="#inicio"><button class="btn-not-included">Início</button></a>
             </header>
-            <table style="margin: 20px auto; color: white; border: solid 1px #FFF; width: 80%; text-align: center;">
+            <table id="tb-not-included" class="white">
                 <tr>
-                    <td rowspan="30" style="font-size: 20px">Lugares<br>que não<br>entraram<br>na lista</td>
+                    <td rowspan="30" class="tb-side">Lugares<br>que não<br>entraram<br>na lista</td>
                     <td colspan="4">MUNDO
                     </td>
                 </tr>
                 <tr>
-                    <th class="br" colspan="2" style="width: 50%;">Brasil</td>
-                    <th colspan="2" style="width: 50%;">Exterior</td>
+                    <th class="br" colspan="2">Brasil</td>
+                    <th class="ext" colspan="2">Exterior</td>
                 </tr>
                 <tr>
                     <td class="br-location black">Canindé do São Francisco</td>
